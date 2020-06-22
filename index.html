@@ -1,7 +1,51 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<style>
+body{
+  background-color: #202028;
+}
+a{
+  color: #F8F8F0;
+  font-family:courier new;
+}
+a:hover{
+  color: fuchsia;
+}
+a:active{
+  color: fuchsia;
+}
+h1{
+  color:#F8F8F0;
+  font-family:courier new;
+}
+p{
+  color:#F8F8F0;
+  font-family:courier new;
+}
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #F8F8F0; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+</style>
+<h1>
+  Dr Thomas Morrill
+</h1>
+
+<img scr="img/thms.png" alt="A stylized portrait of Dr Morrill">
+
+<p>
+  The Overboard Partitioner
+  <ul>
+    <li> <a href="https://arxiv.org/search/math?searchtype=author&query=Morrill%2C+T">Preprints</a>
+    <li> <a href="https://www.unsw.adfa.edu.au/science/number-theory">UNSW Canberra Number Theory Group</a>
+    <li> <a href="https://github.com/tsmorrill">GitHub</a>
+    <li> <a href="https://jocko-homomorphism.bandcamp.com/">Music</a>
+  </ul>
+</p>
 </body>
 </html>
