@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+body{
+  width:960px;
+  margin:0 auto;
+  background-color: #202028;
+}
+a{
+  color: #F8F8F0;
+  font-family:courier new;
+}
+a:hover{
+  color: fuchsia;
+}
+a:active{
+  color: fuchsia;
+}
+h1{
+  color:#F8F8F0;
+  font-family:courier new;
+}
+p{
+  color:#F8F8F0;
+  font-family:courier new;
+}
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #F8F8F0; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+div{
+  max-width:800px;
+}
+
+</style>
+<h1>
+  Set Relation Exercises
+</h1>
+
+<p>
+  Suppose that A and B are sets with relations ~<sub>A</sub> and ~<sub>B</sub>, respectively. Suppose further that f: A → B is a function with the property that x ~<sub>A</sub> y if and only if f(x) ~<sub>B</sub> f(y).
+  <ul>
+    <li> <a>Prove that if  ~<sub>B</sub> is reflexive, then ~<sub>A</sub> is reflexive.</a>
+    <li> <a>Give a counterexample showing that the converse is false.</a>
+    <li> <a>Prove that if ~<sub>A</sub> is reflexive, then the restriction of ~<sub>B</sub> to f(A) is reflexive.</a>
+    <li> <a>Prove that if ~<sub>B</sub> is reflexive and f is not injective, then ~<sub>A</sub> is not antisymmetric.</a>
+  </ul>
+</p>
+
+</body>
+</html>
