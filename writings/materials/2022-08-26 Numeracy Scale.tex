@@ -1,0 +1,96 @@
+
+%there are four versions, one for each tute and then one suplementary. 
+%the ifthen package is used to hide the different versions, and to include 
+%or hide solutions. 
+
+\documentclass[12pt]{amsart}
+\usepackage{a4wide,bm,graphicx,caption,subcaption}
+\captionsetup[subfigure]{labelfont=rm}
+\usepackage{enumitem,ifthen}
+
+%\newcommand{\quizVersion}{4} %set to 1, 2, 3, or 4 depending on the tutorial time
+
+\usepackage{comment}
+%\specialcomment{solution}{\textbf{Solution}\quad}{}
+%\newboolean{iflecturer}
+%\setboolean{iflecturer}{false}
+%
+%\ifthenelse{\boolean{iflecturer}}{}{\excludecomment{solution}}
+
+\pagenumbering{gobble}
+
+\begin{document}
+%-----------------------title section
+\begin{center}
+{\Large Numeracy Scale}\\
+\vspace{1cm}
+Don't worry, it's not for a grade.
+But there is a prize for the best score!
+\vspace{1cm}
+%You must show all your work to earn full marks.
+%This can include algebraic formulas, numerical/graphical techniques, and named theorems from lectures.
+%If you use a calculuator for a decimal approximation, include the formula you are evaluating.
+%
+%\vspace{1cm}
+
+\begin{tabular}{@{}ll}
+Time estimate:   &        {\rm \bf FIFTEEN} ($15$) minutes\\
+No. of questions: &  {\rm\bf SEVEN} ($7$)\\
+Total marks: & {\rm \bf SEVEN} ($7$)\\
+There are: & {\rm \bf TWO} ($2$) pages\\
+\end{tabular}
+
+\vspace{1cm}
+
+\end{center}
+
+\begin{enumerate}
+
+\item (1 mark) Imagine that we have a fair, 6-sided die (for example, from a board game or a casino).
+Imagine we now roll it 1000 times.
+Out of 1000 rolls, how many times do you think the die would come up even (numbers 2, 4, or 6)?
+
+\vspace{2cm}
+
+\item (1 mark) In the Cat Scratch Lottery, the chances of winning a \$10.00 prize is 1\%.
+What is your best guess about how many people would win a \$10.00 prize if 1000 people each buy a single ticket to Cat Scratch?
+
+\vspace{2cm}
+
+\item (1 mark) In the Acme Publishing Sweepstakes, the chance of winning a car is 1 in 1000.
+What percentage of tickets to the Acme Publishing Sweepstakes win a car?
+
+\vspace{2cm}
+
+\item (1 mark) Which of the following numbers represents the biggest risk of getting a disease?
+
+\begin{itemize}
+	\item 1 in 100
+	\item 1 in 1000
+	\item 1 in 10
+\end{itemize}
+
+\vspace{2cm}
+
+\item (1 mark) Which of the following numbers represents the biggest risk of getting a disease?
+\begin{itemize}
+	\item 1\%
+	\item 10\%
+	\item 5\%
+\end{itemize}
+
+\vspace{2cm}
+
+\item (1 mark) If person A's risk of getting a disease is 1\% over 10 years, and person B's risk is double that of A's, what is B's risk?
+
+\vspace{2cm}
+
+\item (1 mark) If person A's risk of getting a disease is 1 in 100 over 10 years, and person B's risk is double that of A's, what is B's risk?
+
+\end{enumerate}
+
+\vspace{2cm}
+
+Out of these seven questions, how many do you think you got right?
+
+\end{document}

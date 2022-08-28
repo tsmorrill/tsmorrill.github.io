@@ -1,0 +1,83 @@
+
+%there are four versions, one for each tute and then one suplementary. 
+%the ifthen package is used to hide the different versions, and to include 
+%or hide solutions. 
+
+\documentclass[12pt]{amsart}
+\usepackage{a4wide,bm,graphicx,caption,subcaption}
+\captionsetup[subfigure]{labelfont=rm}
+\usepackage{enumitem,ifthen}
+
+%\newcommand{\quizVersion}{4} %set to 1, 2, 3, or 4 depending on the tutorial time
+
+\usepackage{comment}
+%\specialcomment{solution}{\textbf{Solution}\quad}{}
+%\newboolean{iflecturer}
+%\setboolean{iflecturer}{false}
+%
+%\ifthenelse{\boolean{iflecturer}}{}{\excludecomment{solution}}
+
+\pagenumbering{gobble}
+
+\begin{document}
+%-----------------------title section
+\begin{center}
+{\Large Introduction Survey}\\
+\vspace{1cm}
+Don't worry, it's not for a grade.
+\vspace{1cm}
+%You must show all your work to earn full marks.
+%This can include algebraic formulas, numerical/graphical techniques, and named theorems from lectures.
+%If you use a calculuator for a decimal approximation, include the formula you are evaluating.
+%
+%\vspace{1cm}
+
+\begin{tabular}{@{}ll}
+Time estimate:   &        {\rm \bf TEN} ($10$) minutes\\
+No. of questions: &  {\rm\bf SIX} ($6$)\\
+Total marks: & {\rm \bf ZERO} ($0$)\\
+There are: & {\rm \bf ONE} ($2$) pages\\
+%Table of useful integrals & Page $2$ .
+\end{tabular}
+
+\vspace{1cm}
+
+\end{center}
+%\vspace{1cm}
+%Name:\underline{\hspace{6cm}} \hspace{1cm} zID:\underline{\hspace{6cm}}
+\vspace{0.5cm}
+%-----------------------title section
+
+
+%------------------------------------------------
+%      The Questions 
+%------------------------------------------------
+
+\begin{enumerate}
+
+\item What is your full name? (The way the registrar writes it.)
+
+\vspace{1cm}
+
+
+\item What is your personal name? (What should I call you in class?)
+
+\vspace{1cm}
+
+\item What are your pronouns? (If no one has ever asked you this, most men use he/him,
+and most women use she/her.)
+
+\vspace{1cm}
+
+\item How was your summer?
+
+\vspace{5cm}
+
+\item Describe your feelings about mathematics in a few sentences and/or one drawing of a face.
+
+\newpage
+
+\item What do you want to get out of this class?
+
+\end{enumerate}
+\end{document}
